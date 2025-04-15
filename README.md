@@ -19,7 +19,7 @@ A modern, animated user management interface built with Next.js 15, Tailwind CSS
 
 ## 🚀 Demo
 
-Check out the live demo: [Animated User Management System](joterp-app.vercel.app)
+Check out the live demo: [Animated User Management System](https://joterp-app.vercel.app)
 
 ## 🛠️ Technologies
 
