@@ -21,7 +21,7 @@ export default function UserDetails({
       <div className="flex border-b border-gray-200">
         <motion.button
           className={`py-3 px-6 cursor-pointer flex items-center gap-2 relative ${
-            activeTab === "profile" ? "bg-gray-400 text-black font-bold" : ""
+            activeTab === "profile" ? " text-black font-bold" : ""
           }`}
           onClick={() => onTabChange("profile")}
           whileHover={{ backgroundColor: "rgba(0,0,0,0.02)" }}
@@ -47,7 +47,7 @@ export default function UserDetails({
         </motion.button>
         <motion.button
           className={`py-3 px-6 flex cursor-pointer items-center gap-2 relative ${
-            activeTab === "contacts" ? "bg-gray-400 text-black font-bold" : ""
+            activeTab === "contacts" ? " text-black font-bold" : ""
           }`}
           onClick={() => onTabChange("contacts")}
           whileHover={{ backgroundColor: "rgba(0,0,0,0.02)" }}
